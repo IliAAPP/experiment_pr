@@ -1,5 +1,9 @@
 import numpy as np
 
+def my_new_func():
+    return 1 + 1
+
+
 def act(x):
     return 0 if x < 0.5 else 1
 
