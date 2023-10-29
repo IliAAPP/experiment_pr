@@ -3,6 +3,9 @@ import matplotlib.pyplot as plt
 
 N = 5
 
+def new_py():
+    print('New py!')
+
 x1 = np.random.random(N)
 x2 = x1 + [np.random.randint(10)/10 for i in range(N)]
 C1 = [x1, x2]
